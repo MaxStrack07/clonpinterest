@@ -1,0 +1,83 @@
+#navbar-pinterest {
+    width: 100%;
+}
+
+body {
+    background: white;
+}
+
+.finder {
+    background: #d7d7d7;
+    padding: 8px;
+    border-radius: 30px;
+    border: 5px solid transparent;
+    width: 600px;
+}
+
+.finder:hover {
+    background: #c2c2c2;
+}
+
+.icons {
+    display: inline-block;
+    
+}
+
+section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar:hover {
+    background: gray;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#message {
+    margin: 0px 10px;
+}
+
+.Pinterest {
+    margin: 0px 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-image:hover {
+    background-image: url(../img/Guardar.png);
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    margin: 29px 0px;
+    position: -ms-page;
+}
+
+@media screen and (max-width: 855px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 652px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
